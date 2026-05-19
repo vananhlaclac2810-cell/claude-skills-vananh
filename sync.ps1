@@ -1,4 +1,4 @@
-# claude-skills-vananh sync (Windows)
+﻿# claude-skills-vananh sync (Windows)
 # Đẩy thay đổi từ ~/.claude/ về repo này rồi commit + push lên GitHub.
 #
 # Cách dùng:

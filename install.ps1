@@ -1,4 +1,4 @@
-# claude-skills-vananh installer (Windows PowerShell)
+﻿# claude-skills-vananh installer (Windows PowerShell)
 # Cài 52 skill + 2 agent + settings + memory vào ~/.claude/
 #
 # Cách chạy 1 dòng trên máy mới:
@@ -30,8 +30,8 @@ if ($inRepo) {
     $SRC = (Get-Location).Path
 } else {
     Write-Host "[1/5] Clone repo về $TEMP_DIR ..." -ForegroundColor Green
-    git clone --depth 1 $REPO $TEMP_DIR 2>&1 | Out-Null
-    if (-not (Test-Path $TEMP_DIR)) {
+    git clone --quiet --depth 1 $REPO $TEMP_DIR
+    if ($LASTEXITCODE -ne 0 -or -not (Test-Path $TEMP_DIR)) {
         Write-Host "  ❌ Clone fail. Check git cài chưa + có internet không." -ForegroundColor Red
         exit 1
     }
