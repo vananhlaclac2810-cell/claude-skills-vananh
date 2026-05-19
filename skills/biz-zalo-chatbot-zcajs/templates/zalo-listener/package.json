@@ -1,0 +1,23 @@
+{
+  "name": "zalo-listener",
+  "version": "1.0.0",
+  "description": "Zalo personal chatbot + notification endpoint using zca-js + OpenRouter",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test:login": "node scripts/test-login.js",
+    "test:llm": "node scripts/test-llm.js"
+  },
+  "dependencies": {
+    "zca-js": "2.1.1",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "openai": "^4.65.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "private": true
+}

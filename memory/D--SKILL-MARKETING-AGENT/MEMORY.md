@@ -1,0 +1,14 @@
+- [Quy tắc cài skill — user-level mặc định](feedback_skill_install_location.md) — mặc định cài skill vào `C:\Users\ADMIN\.claude\skills\`, project-level chỉ khi skill riêng project
+- [Dr.Maya landing Dầu Húng Chanh](project_drmaya_landing.md) — live trên thieuvananh.vn, hosted Vercel, source ở `D:\SKILL MARKETING AGENT\landing-dau-hung-chanh\`
+- [Bộ 3 skill viết bài FB actionable post](project_fb_actionable_skills.md) — đã cài: `fb-actionable-post-core` (meta), `fb-megalist-post` (cẩm nang), `fb-relatable-numbered-post` (viral)
+- [Dr.Maya brand assets & channels](project_drmaya_brand_assets.md) — drmayastore.vn (mua hàng), FB group "Nghiện bầu nghiện con", TikTok @Thiều Vân Anh + @Euro Mũi Tẹt
+- [HyperFrames đã setup](project_hyperframes.md) — render video từ HTML; project demo ở `D:\SKILL MARKETING AGENT\hyperframes-demo\`, 14 skill ở `~\.claude\skills\.agents\skills\`, ffmpeg 8.1.1 đã cài
+- [Apify MCP đã kết nối](reference_apify_mcp.md) — token saved, REST API fallback documented; `apify/facebook-posts-scraper` verified hoạt động
+- [Page tham chiếu TuVanSuaMe](project_competitor_tuvansuame.md) — Bác Sĩ Sữa Mẹ Anh Thy, cùng ngách Dr.Maya; snapshot 2026-05-12 ở tuvansuame_*.json
+- [TikTok @bssuame_bmc](project_competitor_bssuame_bmc.md) — Bác Sĩ Sữa Mẹ BMC, 39 video ≥100K view + 35 transcript ở bssuame_bmc_100k_*.json/md/csv
+- [TikTok @duocsyngacoi](project_competitor_duocsyngacoi.md) — Dược Sỹ Ngà Coi, 55 video ≥100K view + full transcript ở duocsyngacoi_100k_*.json/md/csv (scrape bằng yt-dlp + faster-whisper, không dùng Apify)
+- [Density layer cho 3 video skill](project_video_density_layer.md) — schema v1.1, auto-detect inserts/bursts/flashes, target Modern TikTok 3-5 events/10s
+- [Skill biz-zalo-chatbot-zcajs](project_biz_zalo_chatbot.md) — trợ lý AI Zalo cá nhân + notify Sepay; dùng zca-js (unofficial, có risk khóa account) + OpenRouter + Railway listener; scaffold standalone Node project + Next.js proxy
+- [Video pipeline workspace rule](feedback_video_pipeline_workspace.md) — scaffold project ở `%TEMP%\hyperframes\<slug>\`, render xong CHỈ copy MP4 final sang `D:\SKILL MARKETING AGENT\videos-done\`
+- [Preview PNG trước khi render video](feedback_video_preview_before_render.md) — luôn snapshot preview cho user duyệt trước khi chạy `npm run render` MP4 (đặc biệt batch nhiều video)
+- [Dr.Maya TikTok carousel video recipe](project_drmaya_tiktok_carousel_video_recipe.md) — công thức batch N video 9:16 từ N ảnh tham khảo (HyperFrames + AI bg + glassmorphism + Be Vietnam Pro)
